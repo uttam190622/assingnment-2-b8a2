@@ -86,6 +86,7 @@ nav .follow{
     gap: 30px;
 }
 
+
 .banner-section2 .banner-content{
     
     line-height: 30px;
@@ -167,7 +168,7 @@ text-transform: lowercase;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 55px 200px 39px 200px;
+    margin: 55px 200px 0px 200px;
 }
 
 .feature-image1{
@@ -195,16 +196,77 @@ text-transform: lowercase;
 
 }
 
+.careers{
+    display: flex;
+    background: #FF55AE;
+    color: #fff;
+}
+.career-title{
+    /* color: #fff; */
+    font-size: 3rem;
+    font-weight: 700;
+}
+.career-description{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+}
 
 
+.career-content{
+    text-align: center;
+    padding-left: 200px;
+    margin-bottom: 20px;
+}
+.artist-country{
+    display: flex;
+    margin-bottom: 30px;
+}
+.artist-area{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+.country-area{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer{
+    background: #0B0223;
+     color: #fff;  
+     padding: 20px 200px 40px 200px;
+     text-align: center;
+
+}
+
+.logo-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.our-story ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.our-story ul li{
+    margin-right: 30px;
+}
 
 
+.icon-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-section img{
+    margin-right: 50px;
 
-
-
-
-
-
+}
 
 
 
@@ -244,48 +306,32 @@ text-transform: lowercase;
     }
 
     nav,
-    .teams-container,
-    .features,
-    .facts-card-container,
-    .sponsors-img-container {
+    .banner-section1 .banner-section2,
+.play-games .our-story
+    
+    .feature-image1,feature-image2 {
         flex-direction: column;
     }
 
-    .feature-img img{
+    .feature-image1{
         width: 90%;
         margin-left: 0;
     }
 
-    .ten-years-badge{
-        position: static;
-        max-width: 300px;
-    }
-
-    .teams-img-container {
-        grid-template-columns: 1fr;
-    }
-
-    .teams-content,
-    .facts-card-container {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .facts-card-container {
-        gap: 20px;
-    }
-}
+    
+   
 
 /* tablet or medium devices */
 @media screen and (min-width:576px) and (max-width: 960px) {
     header {
         padding: 50px;
     }
-
     nav,
-    .features,
-    .teams-container,
-    .sponsors-img-container {
+    .banner-section1 .banner-section2,
+.play-games .our-story
+    
+    .feature-image1,feature-image2
+    {
         flex-direction: column;
     }
-}
+}}
