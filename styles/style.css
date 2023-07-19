@@ -147,8 +147,38 @@ text-transform: lowercase;
 
 
 
+/* funny-games */
+
+.funny-games{
+    
+    margin: 55px 200px 39px 200px;
+}
+
+.funny-games-content{
+    text-align: center;
+}
+.img-container{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.play-games{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 55px 200px 39px 200px;
+}
+.feature-image{
+    background: url(images/);
+}
 
 
+.feature-image2{
+    position: relative;
+    bottom: 150px;
+    
+}
 
 
 
