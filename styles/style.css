@@ -262,29 +262,17 @@ text-transform: lowercase;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .icon-section img{
     margin-right: 50px;
 
 }
 
+.icon-section a{
+    margin-right: 30px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
