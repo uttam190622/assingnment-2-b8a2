@@ -169,15 +169,30 @@ text-transform: lowercase;
     justify-content: space-between;
     margin: 55px 200px 39px 200px;
 }
-.feature-image{
-    background: url(images/);
-}
 
+.feature-image1{
+    margin-left: 150px;
+}
 
 .feature-image2{
     position: relative;
     bottom: 150px;
     
+}
+.primary-title1{
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.primary-title2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0B0223;
+
 }
 
 
